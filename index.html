@@ -1,0 +1,38 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="jumbotron">
+          <h1><i class="fa fa-wikipedia-w"></i>elcome to <i class="fa fa-wikipedia-w"></i>ikipedia Viewer</h1>
+          <p>This is a simple Wikipedia viewer page</p>
+      </div>
+      <div class="input-group">
+            <input id="search-input" type="text" class="form-control" placeholder="Search for...">
+            <div class="input-group-btn">
+                <a href="https://en.wikipedia.org/wiki/Special:Random" id="random" class="btn btn-default" target="_blank">Open random article</a>
+                <button id="search" class="btn btn-default" type="button">Go!</button>
+            </div>
+      </div>
+      <div class="well">
+        <ul id="output">
+        </ul>
+      </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jquery-3.2.1.min.js"></script>
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>
